@@ -8,5 +8,3 @@ Hope I can work hard and learn a lot with the help of [Dr Yan](http://ices.cuc.e
 - learn about the basic knowledge
 - the concept of the basic terms
 
-s
-
