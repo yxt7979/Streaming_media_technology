@@ -8,3 +8,7 @@ Hope I can work hard and learn a lot with the help of [Dr Yan](http://ices.cuc.e
 - learn about the basic knowledge
 - the concept of the basic terms
 
+PS : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.     
+To solve the problem, you can:
+- close your proxy software for a short time.
+- or download the Markdown File directly.
