@@ -3,10 +3,15 @@ This is the first research group I followed of Information and Communication Eng
 
 Hope I can work hard and learn a lot with the help of [Dr Yan](http://ices.cuc.edu.cn/2020/0509/c5332a170187/pagem.htm) and [Dr Lin](http://people.ucas.ac.cn/~lint) :D
 
-## The first two weeks(2021.01.02 - 2021.01.15)
+## The first week (2021.01.02 - 2021.01.07)
 
 - learn about the basic knowledge
 - the concept of the basic terms
+
+## The second week (2021.01.07 - 2021.01.14)
+
+- read the paper 《 Scalable-360°-Video-Stream-Delivery-Challenges-Solutions-and-Opportunities》
+- search for the content distribution technologies
 
 PS : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.     
 To solve the problem, you can:
