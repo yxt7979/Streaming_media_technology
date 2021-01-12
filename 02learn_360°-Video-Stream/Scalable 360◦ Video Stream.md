@@ -168,3 +168,55 @@
 - 凝视检测
 - **无法将电影摄影规则融入内容创作技巧**。
 - 影响晕屏的因素。（**网络特性**的延迟、抖动、可用带宽、视图/贴图退化率和**流媒体特性**的延迟、质量变化、视口变化的影响）
+
+## 5. 内容问题补充
+
+### （1）上次要找的两个系统
+
+已经对**多媒体存储系统**有所研究，并扩展到在单个服务器上存储相关的三维流。
+
+此外，现有**大规模的map-reduce存储系统**，包括**Hadoop分布式文件系统**和**谷歌文件系统**。
+
+[网上的解释](https://www.zhihu.com/question/333417513)
+
+### （2）两种编码技术
+
+在过去的中已经提出了一系列的**全向视频编码技术**。最近，人们提出了的**分层编码方案**，其目标是减少延迟并更快地适应视角的变化。虽然许多方法需要特殊的播放器，浏览器可以用来观看360◦视频，如果他们支持WebVR标准。
+
+>A series of encoding techniques for such omnidirectional videos have been presented in the past . Recently, layered encoding schemes have been proposed , which have the goal of reducing stalling and adapting quicker to viewport changes. 
+
+[有一个研究很不错的样子](https://github.com/RyanXingQL/Blog/blob/master/posts/mfqev2.md)
+
+### （3）视频的投影贴图格式
+
+| 种类     | 矩形 | 立方          | 金字塔型        |
+| -------- | ---- | ------------- | --------------- |
+| 空间占用 | 最大 | 比第一种少25% | 减少80%文件大小 |
+| 其他要求 | \    | \             | 需要GPU处理     |
+
+调研油管：
+
+#### 矩形（Equirectangular）：
+
+![image-20210112231601956](https://littlefisher.oss-cn-beijing.aliyuncs.com/images/image-20210112231601956.png)
+
+- 这种格式的优点是比较直观，并且投影是矩形的。
+- 缺点也很明显：
+  1. 球体的上下**两极**投影出来的**像素数很多**，而细节内容比较丰富的**赤道区域**相比来说像**素数就很少**，导致还原时清晰度比较糟糕。
+  2. 另外，这种格式的画面在**未渲染的情况下扭曲比较明显**
+
+#### 立方形（Cube Map）：
+
+先投影到立方体后，再展开
+
+![image-20210112231843272](https://littlefisher.oss-cn-beijing.aliyuncs.com/images/image-20210112231843272.png)
+
+但是像素分布仍然不均匀
+
+#### 目前谷歌用的投影技术 - 等角度立方体贴图”（EAC）
+
+![image-20210112232536103](https://littlefisher.oss-cn-beijing.aliyuncs.com/images/image-20210112232536103.png)
+
+更改优化投影时的采样点位置，使得边角与中心的像素密度相等。
+
+这样做的好处就是在相同的源视频分辨率下可以**提高细节部分的清晰度**。
