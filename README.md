@@ -20,7 +20,7 @@ Hope I can work hard and learn a lot with the help of [Dr Yan](http://ices.cuc.e
 - Learn about video codingtechnique. (plain)
 - Read the paper 《IEEEMULTIMEDIA-VR CACHING SURVEY》
 
-## The forth part (2021.01.16 - 2021.01.17)
+## The forth part (2021.01.16 - 2021.01.18)
 
 - Search for papers related to edge caching for 360° video
 
