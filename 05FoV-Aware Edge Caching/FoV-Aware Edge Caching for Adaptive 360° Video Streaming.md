@@ -67,7 +67,7 @@
 
 因此需要提高命中率。
 
-### （2）**360**◦ **Video Model**
+### （2）**360**◦ Video Model
 
 #### 目标：
 
@@ -120,8 +120,6 @@
 R_h : 整体高分辨率，R_l : 整体低分辨率，f是Fov包含的视频块
 
 吞吐量大于R_h * f/t + R_l * (t-f)/t 即可。
-
-【【【【Latex语法待补充】
 
 ## Part Three: proposed method
 
@@ -311,11 +309,11 @@ Bandwidth saving:
 
 FoV-aware缓存策略利用常见的fov现象(即，观看同一视频的大多数用户的fov有显著的重叠)来驱动对未来请求贴图的更好预测。
 
-【【【【这里还有一段分析要看
-
 ### （2）Streaming Performance
 
 性能指标：Reb，Dor，Qua
+
+![image-20210121191059824](https://littlefisher.oss-cn-beijing.aliyuncs.com/images/image-20210121191059824.png)
 
 ### （3） Impact of Cache Capacity
 
@@ -330,19 +328,3 @@ FoV-aware缓存策略利用常见的fov现象(即，观看同一视频的大多�
 同时对于Bandwidth saving来说，也是Fov策略性能下降的更小。
 
 ![image-20210121001926824](https://littlefisher.oss-cn-beijing.aliyuncs.com/images/image-20210121001926824.png)
-
-## Part Six: Related works（不是这次重点，再说吧）
-
-*Overview of 360*◦ *video streaming*
-
-这里用的等直角投影，采用了自适应流的平铺方法和视场预测方法。结果表明，线性回归方法可以预测用户未来的FoV最多2秒，从而可以预取相关的FoV贴图，实现流畅的视频播放
-
-对于每个分块采用Scalable Video Coding (SVC)
-
-另外，为了解决用户侧多解码器对每个贴图进行解码的问题，[33]采用了高效视频编码(HEVC)标准中运动约束贴图集(MCTS)的特性，采用了单一的硬件解码器。
-
-*Edge computing and caching:
-
-总结：
-
-在移动网络边缘缓存内容可以掩盖流行项目重复下载的缺点，减少长网络延迟和带宽消耗。将所有这些优点结合起来，缓存可以改善360视频流，特别是在移动网络等动态网络条件下。在本文中，我们提出了一种基于平铺的自适应360视频流的缓存策略，通过识别共同视场并利用这一知识来实现更好的缓存性能。结果表明，与LRU和LFU相比，该方案不仅在缓存命中率和带宽节省方面具有优势，而且通过减少延迟事件的数量和持续时间提高了QoE，为FoV提供了高质量。
