@@ -26,7 +26,7 @@ Hope I can work hard and learn a lot with the help of [Dr Yan](http://ices.cuc.e
 
 - Search for papers related to edge caching for 360° video
 
-### The fifth part (2021.01.19 - 2021.01.22)
+### The fifth part (2021.01.19 - 2021.01.23)
 
 - Read the paper《FoV-Aware Edge Caching for Adaptive 360◦ Video Streaming》
 - pay attention to :
@@ -34,6 +34,11 @@ Hope I can work hard and learn a lot with the help of [Dr Yan](http://ices.cuc.e
   2. what's the model / method
   3. experience platform
   4. dataset and the evaluation index
+
+### The Sixth part (2021.01.24 - 2021.01.28)
+
+- Read the paper 《Flocking_based_Live_Streaming_of_360_degree_Video_Final_Version》
+- Focus on algorithms and environments
 
 PS : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.     
 To solve the problem, you can:
