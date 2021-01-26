@@ -241,11 +241,29 @@ develop a novel light-weight FoV prediction algorithm，训练数据集为：
 
 #### 2、*Gain from Collaborative FoV Prediction.*
 
+![image-20210127001435259](https://littlefisher.oss-cn-beijing.aliyuncs.com/images/image-20210127001435259.png)
+
+我们根据用户的网络环境分成几段，第一梯队的属于in the front of flock因此含有的协作预测信息太少，所以橙色条没有后面明显。
+
+但是可以发现，加上了协同预测后的所有KL散度都减小甚多，说明协同预测非常有效。
+
 #### 3、*Gain from Latency and Buffer Upper Bound Assignment*
+
+![image-20210127002428738](https://littlefisher.oss-cn-beijing.aliyuncs.com/images/image-20210127002428738.png)
+
+上面的4张图中，左面两个是随机分配所在flock区域的，右面两个是根据计算得到的最优所在位置。
+
+灰色线是有效带宽，(a),(b)图中的绿色线(交付视频比特率)大致相同，但是橙色线(有效视频比特率)明显(b)比(a)强。
+
+因为有效视频和对Fov的预测有关，因此右面的计算后的智能分配会使得他有更多的协作用户数据，因此(d)比(c)的KL散度更准确些，于是Eeffective Rates 也就更高。
 
 ### （3）Caching Performance for Live 360◦ Video Streamin
 
 #### 1、*Caching Performance without Storage Capacity Limit.*
+
+We evaluate cache performance by the cache hit rate, network efficiency,
+
+transcoding ratio and the storage requirement.
 
 #### 2、 *Caching Performance under Different Storage Capacities.* 
 
