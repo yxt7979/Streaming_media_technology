@@ -37,8 +37,29 @@ Hope I can work hard and learn a lot with the help of [Dr Yan](http://ices.cuc.e
 
 ### The Sixth part (2021.01.24 - 2021.01.28)
 
+For me:
+
 - Read the paper 《Flocking_based_Live_Streaming_of_360_degree_Video_Final_Version》
 - Focus on algorithms and environments
+
+For Senior Yang Chen:
+
+- Read the paper《Multi-Agent Deep Reinforcement Learning Based Live 360-Degree Video Streaming on Edge》
+- Focus on the environments and the datasets.
+
+### The Seventh part (2021.01.29 - 2021.02.02)
+
+For me : 
+
+- Read the paper《Edge-Assisted QoE Optimization of HTTP DL》of Infocom20.
+- In conjunction with the latest article (flocking)
+
+For Senior Yang Chen :
+
+- Read the paper of the dataset.《A Dataset for Exploring User Behaviors in VR Spherical Video Streaming》
+- learn about the dataset and the  experimental environment.
+
+
 
 PS : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.     
 To solve the problem, you can:

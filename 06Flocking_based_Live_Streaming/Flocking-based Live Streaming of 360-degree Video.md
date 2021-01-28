@@ -216,7 +216,7 @@ develop a novel light-weight FoV prediction algorithm，训练数据集为：
 
 ### （1） Latency-FoV based Caching Strategy（基于延迟Fov的缓存策略）
 
-基于延迟fov的缓存策略。根据用户过去的视场轨迹相似度，将用户分为不同的视场组。每个组中有最大延迟的用户(用户4和6)被标记，组中只有一个用户(用户1)也被标记。
+基于延迟fov的缓存策略。根据**用户过去的视场轨迹相似度**，将用户分为不同的视场组。每个组中有最大延迟的用户(用户4和6)被标记，组中只有一个用户(用户1)也被标记。
 
 ![image-20210125201031721](https://littlefisher.oss-cn-beijing.aliyuncs.com/images/image-20210125201031721.png)
 
@@ -229,6 +229,12 @@ develop a novel light-weight FoV prediction algorithm，训练数据集为：
 ## 7.  PERFORMANCE EVALUATION（性能评估）
 
 ### （1）实验平台
+- 9视频48用户的轨迹
+- WiGig模拟网络状况
+- HMM合成带宽轨迹（page8)
+- 码率选择（？
+- 预测带宽 ：计算过去10个视频段下载带宽的谐波均值作为下一个视频段的预测带宽。
+
 
 ### （2）Evaluation of Flocking-based Live 360◦ Video Streaming
 
@@ -258,16 +264,18 @@ develop a novel light-weight FoV prediction algorithm，训练数据集为：
 因为有效视频和对Fov的预测有关，因此右面的计算后的智能分配会使得他有更多的协作用户数据，因此(d)比(c)的KL散度更准确些，于是Eeffective Rates 也就更高。
 
 ### （3）Caching Performance for Live 360◦ Video Streamin
+#### 对于无限制的缓存容量 -- 编码的影响
+- cache hit rate
+- network efficiency
+- transcoding ratio
+- the storage requirement
 
-#### 1、*Caching Performance without Storage Capacity Limit.*
-
-We evaluate cache performance by the cache hit rate, network efficiency,
-
-transcoding ratio and the storage requirement.
-
-#### 2、 *Caching Performance under Different Storage Capacities.* 
-
-
+#### 对于不同容量下的缓存性能
+![image-20210127164342565](https://littlefisher.oss-cn-beijing.aliyuncs.com/images/image-20210127164342565.png)
+当容量达到15G左右时基本到达峰值，可以覆盖48s的内容。
+Network Efficiency ： A-B/B
+A：用户请求的 
+B：从原始服务器传送到缓存的总流量
 
 
 
