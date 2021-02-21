@@ -59,10 +59,11 @@ For Senior Yang Chen :
 - Read the paper of the dataset.《A Dataset for Exploring User Behaviors in VR Spherical Video Streaming》
 - learn about the dataset and the  experimental environment.
 
-### 2021.02.03 - 2021.02.23 咸鱼一条
+### 2021.02.03 - 2021.02.24 咸鱼一条
 
 - MCM
 - ACM training
+- 2021.02.21 Aiops讨论
 
 PS : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.     
 To solve the problem, you can:
