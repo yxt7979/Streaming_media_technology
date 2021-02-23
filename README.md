@@ -64,8 +64,22 @@ For Senior Yang Chen :
 - MCM
 - ACM training
 - 2021.02.21 Aiops讨论
+- 2021.02.22 下一阶段工作计划讨论
 
-PS : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.     
+### 2021.02.24 - 2021.02.28 Transition
+
+For me : 
+
+- Summarize the work progress of the existing teams
+
+For Senior Yang Chen :
+
+- Read the code of /ma 
+- forcus on the environment
+
+
+
+**PS **: Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.   
 To solve the problem, you can:
 
 - close your proxy software for a short time.
