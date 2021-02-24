@@ -7,7 +7,7 @@ Hope I can work hard and learn a lot with the help of [Dr Yan](http://ices.cuc.e
 
 ### The first part (2021.01.02 - 2021.01.07)
 
-- Learn about the basic knowledge
+- Learn about the basic knowledge.
 - the concept of the basic terms
 
 ### The second part (2021.01.07 - 2021.01.10)
