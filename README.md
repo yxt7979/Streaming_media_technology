@@ -85,11 +85,7 @@ For Senior Yang Chen :
 
 For me and Senior Yang Chen :
 
-- Focus on ABR - SVC 《Edge Cache Replacement Strategy for
-
-  SVC-Encoding Tile-Based 360-degree Panoramic 
-
-  Streaming》
+- Focus on ABR - SVC 《Edge Cache Replacement Strategy for SVC Encoding Tile-Based 360-degree Panoramic Streaming》
 
 - learn the basic QoE of 360° video from LIME
 
@@ -99,7 +95,7 @@ For me and Senior Yang Chen :
 
 
 
-**PS **: Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.   
+**PS** : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.   
 To solve the problem, you can:
 
 - close your proxy software for a short time.
