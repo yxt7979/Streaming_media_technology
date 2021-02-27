@@ -63,10 +63,10 @@ For Senior Yang Chen :
 
 - MCM
 - ACM training
-- 2021.02.21 Aiops讨论
-- 2021.02.22 下一阶段工作计划讨论
+- 2021.02.21 Aiops
+- 2021.02.22 Discussion
 
-### 2021.02.24 - 2021.02.28 Transition
+### 2021.02.24 - 2021.02.26 Transition
 
 For me : 
 
@@ -76,6 +76,26 @@ For Senior Yang Chen :
 
 - Read the code of /ma 
 - forcus on the environment
+
+2021.02.27 Report and discussion
+
+## Long Term Plan Two (From 2021.02.28 -  )
+
+### The First Part (2021.02.28 - 2021.03.05)
+
+For me and Senior Yang Chen :
+
+- Focus on ABR - SVC 《Edge Cache Replacement Strategy for
+
+  SVC-Encoding Tile-Based 360-degree Panoramic 
+
+  Streaming》
+
+- learn the basic QoE of 360° video from LIME
+
+- learn about the video transfer from 《HTTP2...》
+
+- Focus on the environment(YC) and algorithm (ME)
 
 
 
