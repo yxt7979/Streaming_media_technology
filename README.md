@@ -86,12 +86,11 @@ For Senior Yang Chen :
 For me and Senior Yang Chen :
 
 - Focus on ABR - SVC 《Edge Cache Replacement Strategy for SVC Encoding Tile-Based 360-degree Panoramic Streaming》
-
 - learn the basic QoE of 360° video from LIME
-
 - learn about the video transfer from 《HTTP2...》
-
 - Focus on the environment(YC) and algorithm (ME)
+
+2021.03.05 15:30 Report and discussion
 
 
 
