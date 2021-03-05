@@ -79,9 +79,9 @@ For Senior Yang Chen :
 
 2021.02.27 Report and discussion
 
-## Long Term Plan Two (From 2021.02.28 -  )
+## Long Term Plan Two (From 2021.03.01 -  )
 
-### The First Part (2021.02.28 - 2021.03.05)
+### The First Week(2021.02.28 - 2021.03.05)
 
 For me and Senior Yang Chen :
 
@@ -90,7 +90,11 @@ For me and Senior Yang Chen :
 - learn about the video transfer from 《HTTP2...》
 - Focus on the environment(YC) and algorithm (ME)
 
-2021.03.05 15:30 Report and discussion
+2021.03.05 15:30 Report and discussion:D
+
+### The second week(2021.03.06 - 2021.03.12)
+
+For me and Senior Yang Chen : Rewiew the papers to find the differences of edge caching between the traditional 2D videos and the VR/360° videos.
 
 
 
