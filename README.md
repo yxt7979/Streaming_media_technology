@@ -92,9 +92,11 @@ For me and Senior Yang Chen :
 
 2021.03.05 15:30 Report and discussion:D
 
-### The second week(2021.03.06 - 2021.03.12)
+### The second week(2021.03.06 - 2021.03.22)
 
 For me and Senior Yang Chen : Rewiew the papers to find the differences of edge caching between the traditional 2D videos and the VR/360° videos.
+
+2021.03.22 进京面圣qaq
 
 
 
