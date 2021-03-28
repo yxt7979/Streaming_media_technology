@@ -1,0 +1,135 @@
+version 2
+run General-0-20170821-19:34:18-10500
+attr D lce
+attr F spr
+attr R lru
+attr a 1
+attr configname General
+attr datetime 20170821-19:34:18
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars "$net=abilene, $rep=0, $a=1, $F=spr, $ttl=1000, $D=lce, $R=lru"
+attr iterationvars2 "$net=abilene, $rep=0, $a=1, $F=spr, $ttl=1000, $D=lce, $R=lru, $repetition=0"
+attr measurement "$net=abilene, $rep=0, $a=1, $F=spr, $ttl=1000, $D=lce, $R=lru"
+attr net abilene
+attr network networks.${net=abilene}_network
+attr processid 10500
+attr rep 0
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr ttl 1000
+
+scalar . 	a 	1
+scalar . 	rep 	0
+scalar . 	ttl 	1000
+scalar abilene_network.content_distribution 	repo-0 	5
+scalar abilene_network.content_distribution 	client-0 	0
+scalar abilene_network.content_distribution 	client-1 	3
+scalar abilene_network.content_distribution 	client-2 	7
+scalar abilene_network.content_distribution 	client-3 	9
+scalar abilene_network.content_distribution 	client-4 	5
+scalar abilene_network.content_distribution 	client-5 	2
+scalar abilene_network.content_distribution 	client-6 	4
+scalar abilene_network.content_distribution 	client-7 	6
+scalar abilene_network.content_distribution 	client-8 	8
+scalar abilene_network.content_distribution 	client-9 	10
+scalar abilene_network.content_distribution 	client-10 	1
+scalar abilene_network.statistics 	p_hit 	0.12386284114766
+scalar abilene_network.statistics 	interests 	129.90909090909
+scalar abilene_network.statistics 	data 	86
+scalar abilene_network.statistics 	hdistance 	2.593711269831
+scalar abilene_network.statistics 	avg_time 	0.013309829745
+scalar abilene_network.statistics 	downloads 	482
+scalar abilene_network.node[0].core_layer 	interests[0] 	29
+scalar abilene_network.node[0].core_layer 	data[0] 	22
+scalar abilene_network.node[0].core_layer 	repo_int[0] 	305
+scalar abilene_network.node[0].content_store 	p_hit[0] 	0.24137931034483
+scalar abilene_network.node[0].content_store 	hits[0] 	7
+scalar abilene_network.node[0].content_store 	misses[0] 	22
+scalar abilene_network.node[1].core_layer 	interests[1] 	124
+scalar abilene_network.node[1].core_layer 	data[1] 	101
+scalar abilene_network.node[1].content_store 	p_hit[1] 	0.18548387096774
+scalar abilene_network.node[1].content_store 	hits[1] 	23
+scalar abilene_network.node[1].content_store 	misses[1] 	101
+scalar abilene_network.node[2].core_layer 	interests[2] 	163
+scalar abilene_network.node[2].core_layer 	data[2] 	137
+scalar abilene_network.node[2].content_store 	p_hit[2] 	0.15337423312883
+scalar abilene_network.node[2].content_store 	hits[2] 	25
+scalar abilene_network.node[2].content_store 	misses[2] 	138
+scalar abilene_network.node[3].core_layer 	interests[3] 	174
+scalar abilene_network.node[3].core_layer 	data[3] 	165
+scalar abilene_network.node[3].content_store 	p_hit[3] 	0.051724137931034
+scalar abilene_network.node[3].content_store 	hits[3] 	9
+scalar abilene_network.node[3].content_store 	misses[3] 	165
+scalar abilene_network.node[4].core_layer 	interests[4] 	210
+scalar abilene_network.node[4].core_layer 	data[4] 	191
+scalar abilene_network.node[4].content_store 	p_hit[4] 	0.09047619047619
+scalar abilene_network.node[4].content_store 	hits[4] 	19
+scalar abilene_network.node[4].content_store 	misses[4] 	191
+scalar abilene_network.node[5].core_layer 	interests[5] 	343
+scalar abilene_network.node[5].core_layer 	repo_load[5] 	305
+scalar abilene_network.node[5].core_layer 	data[5] 	0
+scalar abilene_network.node[5].content_store 	p_hit[5] 	0.11078717201166
+scalar abilene_network.node[5].content_store 	hits[5] 	38
+scalar abilene_network.node[5].content_store 	misses[5] 	305
+scalar abilene_network.node[6].core_layer 	interests[6] 	128
+scalar abilene_network.node[6].core_layer 	data[6] 	112
+scalar abilene_network.node[6].content_store 	p_hit[6] 	0.125
+scalar abilene_network.node[6].content_store 	hits[6] 	16
+scalar abilene_network.node[6].content_store 	misses[6] 	112
+scalar abilene_network.node[7].core_layer 	interests[7] 	99
+scalar abilene_network.node[7].core_layer 	data[7] 	84
+scalar abilene_network.node[7].content_store 	p_hit[7] 	0.15151515151515
+scalar abilene_network.node[7].content_store 	hits[7] 	15
+scalar abilene_network.node[7].content_store 	misses[7] 	84
+scalar abilene_network.node[8].core_layer 	interests[8] 	71
+scalar abilene_network.node[8].core_layer 	data[8] 	56
+scalar abilene_network.node[8].content_store 	p_hit[8] 	0.2112676056338
+scalar abilene_network.node[8].content_store 	hits[8] 	15
+scalar abilene_network.node[8].content_store 	misses[8] 	56
+scalar abilene_network.node[9].core_layer 	interests[9] 	35
+scalar abilene_network.node[9].core_layer 	data[9] 	31
+scalar abilene_network.node[9].content_store 	p_hit[9] 	0.11428571428571
+scalar abilene_network.node[9].content_store 	hits[9] 	4
+scalar abilene_network.node[9].content_store 	misses[9] 	31
+scalar abilene_network.node[10].core_layer 	interests[10] 	53
+scalar abilene_network.node[10].core_layer 	data[10] 	47
+scalar abilene_network.node[10].content_store 	p_hit[10] 	0.11320754716981
+scalar abilene_network.node[10].content_store 	hits[10] 	6
+scalar abilene_network.node[10].content_store 	misses[10] 	47
+scalar abilene_network.client[0] 	hdistance[0] 	4.1724137931034
+scalar abilene_network.client[0] 	downloads[0] 	29
+scalar abilene_network.client[0] 	avg_time[0] 	0.024479310338
+scalar abilene_network.client[1] 	hdistance[1] 	3.2181818181818
+scalar abilene_network.client[1] 	downloads[1] 	55
+scalar abilene_network.client[1] 	avg_time[1] 	0.015294545441
+scalar abilene_network.client[2] 	hdistance[2] 	2.5409836065574
+scalar abilene_network.client[2] 	downloads[2] 	61
+scalar abilene_network.client[2] 	avg_time[2] 	0.011442622937
+scalar abilene_network.client[3] 	hdistance[3] 	2.3243243243243
+scalar abilene_network.client[3] 	downloads[3] 	37
+scalar abilene_network.client[3] 	avg_time[3] 	0.009367567557
+scalar abilene_network.client[4] 	hdistance[4] 	1.3111111111111
+scalar abilene_network.client[4] 	downloads[4] 	45
+scalar abilene_network.client[4] 	avg_time[4] 	0.007093333323
+scalar abilene_network.client[5] 	hdistance[5] 	0.725
+scalar abilene_network.client[5] 	downloads[5] 	40
+scalar abilene_network.client[5] 	avg_time[5] 	0.002
+scalar abilene_network.client[6] 	hdistance[6] 	1.5
+scalar abilene_network.client[6] 	downloads[6] 	44
+scalar abilene_network.client[6] 	avg_time[6] 	0.003749999987
+scalar abilene_network.client[7] 	hdistance[7] 	2.1860465116279
+scalar abilene_network.client[7] 	downloads[7] 	43
+scalar abilene_network.client[7] 	avg_time[7] 	0.008239069756
+scalar abilene_network.client[8] 	hdistance[8] 	2.425
+scalar abilene_network.client[8] 	downloads[8] 	40
+scalar abilene_network.client[8] 	avg_time[8] 	0.01245949999
+scalar abilene_network.client[9] 	hdistance[9] 	3.5428571428571
+scalar abilene_network.client[9] 	downloads[9] 	35
+scalar abilene_network.client[9] 	avg_time[9] 	0.026290857134
+scalar abilene_network.client[10] 	hdistance[10] 	4.5849056603774
+scalar abilene_network.client[10] 	downloads[10] 	53
+scalar abilene_network.client[10] 	avg_time[10] 	0.02599132074

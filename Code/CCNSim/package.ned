@@ -1,0 +1,3 @@
+//package ccnsim;
+
+@license(LGPL);

@@ -92,16 +92,17 @@ For me and Senior Yang Chen :
 
 2021.03.05 15:30 Report and discussion:D
 
-### The second week(2021.03.06 - 2021.03.22)
+### The second weeks ... (2021.03.06 -  )
 
 For me and Senior Yang Chen : Rewiew the papers to find the differences of edge caching between the traditional 2D videos and the VR/360° videos.
 
 2021.03.22 进京面圣qaq
 
-
+2021.03.28 discussion（进度慢了qaq
 
 **PS** : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.   
 To solve the problem, you can:
 
 - close your proxy software for a short time.
 - or download the Markdown File directly.
+
