@@ -81,7 +81,7 @@ For Senior Yang Chen :
 
 ## Long Term Plan Two (From 2021.03.01 -  )
 
-### The First Week(2021.02.28 - 2021.03.05)
+### The First Part(2021.02.28 - 2021.03.05)
 
 For me and Senior Yang Chen :
 
@@ -92,13 +92,17 @@ For me and Senior Yang Chen :
 
 2021.03.05 15:30 Report and discussion:D
 
-### The second weeks ... (2021.03.06 -  )
+### The second Part (2021.03.06 - 2021.04.01 )
 
 For me and Senior Yang Chen : Rewiew the papers to find the differences of edge caching between the traditional 2D videos and the VR/360° videos.
 
-2021.03.22 进京面圣qaq
+2021.03.22 进京面圣qaq 2021.03.28 discussion（进度慢了qaq） 2021.04.01 review of 《Fov - aware caching》苦命的review终于结束了。
 
-2021.03.28 discussion（进度慢了qaq
+### The third part (2021.04.01 - )
+
+代码 - cache 部分
+
+
 
 **PS** : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.   
 To solve the problem, you can:
