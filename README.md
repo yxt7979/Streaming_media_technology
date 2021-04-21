@@ -1,7 +1,7 @@
 # Streaming_media_technology
 This is the first research group I followed of Information and Communication Engineering. As the knowledge I learned in the first and this half year is very basic, I have to learn from zero.
 
-Hope I can work hard and learn a lot with the help of  [Dr Lin](http://people.ucas.ac.cn/~lint), [Dr Yan](http://ices.cuc.edu.cn/2020/0509/c5332a170187/pagem.htm) and [Senior Yang Chen](https://github.com/CroesusChen):D
+Hope I can work hard and learn a lot with the help of  [Dr Lin](http://people.ucas.ac.cn/~lint), [Dr Yan](http://ices.cuc.edu.cn/2020/0509/c5332a170187/pagem.htm) and [Senior Chen Yang](https://github.com/CroesusChen):D
 
 ## LongTerm Plan One (Until 2020.03.01) -- Do survey & Set up the experimental platform
 
