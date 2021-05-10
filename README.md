@@ -98,17 +98,27 @@ For me and Senior Yang Chen : Rewiew the papers to find the differences of edge 
 
 2021.03.22 进京面圣qaq 2021.03.28 discussion（进度慢了qaq） 2021.04.01 review of 《Fov - aware caching》苦命的review终于结束了。
 
-### The third part (2021.04.01 - 2021.04.18)
+### The Third part (2021.04.01 - 2021.04.18)
 
 代码 - cache 部分,数据convert,了解整体代码结构大概是干啥的。经过我创造无数bug后环境终于好了）
 
-### The Fourth part (2021.04.19 - )
+### The Fourth part (2021.04.19 - 2021.04.30 )
 
-经典算法的改进算法
+经典算法的改进算法理论（师哥实现了论文+经典算法+改进算法orzzzzz），hit_ratio可视化
 
+换句话说我好像啥也没干。。0.0
 
+### The Sixth part (2021.05.10 - )
 
-**PS** : Maybe you find that some of the pictures can not be loaded, that's because Github can not load the file without the suffix name.   
+- 在现有环境中添加buffer和计算QoE的参数（latency..）
+
+- 了解强化学习，读论文《**RL-Cache: Learning-Based Cache Admission**
+
+  **for Content Delivery**》
+
+师哥很好，老师也很好，就我太菜了啊啊啊啊啊（大哭）
+
+**PS** : Maybe you find that some of the pictures can not be loaded, that's because GitHub can not load the file without the suffix name.   
 To solve the problem, you can:
 
 - close your proxy software for a short time.

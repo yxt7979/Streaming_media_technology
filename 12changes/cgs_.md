@@ -140,6 +140,4 @@ A1和Am各自所占cache的比例是关键。
 
 如果A1太小，则检测是否hot块的时间太短，很可能需要较长时间才把hot块加入到Am中。但如果A1太大，则A1会占了原本所属Am的cache，hot块的数量就会减少，会影响cache命中率。
 
-【待补充改进和缺点】
-
 [LFU改进算法的参考地址](https://blog.csdn.net/joeyon1985/article/details/52442385)
