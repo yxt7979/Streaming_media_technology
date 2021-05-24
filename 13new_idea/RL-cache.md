@@ -78,15 +78,13 @@ $$
 
 ### 7、Implementation
 
-Tensorflow框架
-
-在cache server中需要一个数据库，计算频率和最近度量，且可以将最新更新的神经网络应用于请求上。
+Tensorflow框架，在cache server中需要一个数据库，计算频率和最近度量，且可以将最新更新的神经网络应用于请求上。
 
 活动字节：为了判断此chunk是否被admit用来预测的
 
 ## Evaluation
 
-
+还没整理）
 
 
 
