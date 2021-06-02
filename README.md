@@ -128,6 +128,11 @@ For me and Senior Yang Chen : Rewiew the papers to find the differences of edge 
 
 - 2021.05.31日汇报《NETAI18-DEEPCACHE A deep learning based framework for content caching》，《TMM21-Viewport-Aware Deep Reinforcement Learning Caching》。
 
+### The Eighth part（2021.06.02 - ）
+
+- read paper《**Tile-based Caching Optimization for 360**° **Videos**》
+- summary my thoughts
+
 
 
 **PS** : Maybe you find that some of the pictures can not be loaded, that's because GitHub can not load the file without the suffix name.   
