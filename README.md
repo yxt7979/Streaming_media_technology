@@ -131,9 +131,8 @@ For me and Senior Yang Chen : Rewiew the papers to find the differences of edge 
 ### The Eighth part（2021.06.02 - ）
 
 - read paper《**Tile-based Caching Optimization for 360**° **Videos**》
-- summary my thoughts
-
-
+- summary my thoughts，细化思路（feature、state、强化学习算法等）
+- 总结归纳和强化学习相关的caching论文
 
 **PS** : Maybe you find that some of the pictures can not be loaded, that's because GitHub can not load the file without the suffix name.   
 To solve the problem, you can:
