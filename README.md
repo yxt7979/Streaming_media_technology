@@ -122,17 +122,22 @@ For me and Senior Yang Chen : Rewiew the papers to find the differences of edge 
 
 - 2021.05.24日汇报《DRL360: 360-degree Video Streaming with Deep Reinforcement Learning》
 - 2021.05.28日汇报《Viewport-Aware Deep Reinforcement Learning Approach for 360*o* Video Caching》
-- 还有环境的代码没改（rubuffer，FoV内高清占比，viewport里的平均码率，码率change的比率，了解psnr信道比参数），我不会改了5555，还有SVC的代码感觉有好多要改的。哎要死了。
+- 还有环境的代码没改（rebuffer，FoV内高清占比，viewport里的平均码率，码率change的比率，了解psnr信道比参数），我不会改了5555，还有SVC的代码感觉有好多要改的。哎要死了。
 
 老师真好师哥真好呜呜呜555老师真好真好真好师哥真好真好真好我太菜了呜呜呜。真的有什么事是做了一定可以有成果的吗，没有，那就坚持下来吧，他们都在帮我。
 
 - 2021.05.31日汇报《NETAI18-DEEPCACHE A deep learning based framework for content caching》，《TMM21-Viewport-Aware Deep Reinforcement Learning Caching》。
 
-### The Eighth part（2021.06.02 - ）
+### The Eighth part（2021.06.02 - 2021.07.10）
 
 - read paper《**Tile-based Caching Optimization for 360**° **Videos**》
 - summary my thoughts，细化思路（feature、state、强化学习算法等）
 - 总结归纳和强化学习相关的caching论文
+- 暂停一段时间准备期末考试
+
+### The Ninth part（2021.07.11 - ）
+
+- 复习代码，更改，测试
 
 **PS** : Maybe you find that some of the pictures can not be loaded, that's because GitHub can not load the file without the suffix name.   
 To solve the problem, you can:

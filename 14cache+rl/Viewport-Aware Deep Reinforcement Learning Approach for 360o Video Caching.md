@@ -1,4 +1,4 @@
-# Viewport-Aware Deep Reinforcement Learning Approach for 360*o* Video Caching
+# Viewport-Aware Deep Reinforcement Learning Approach for 360° Video Caching
 
 online caching scheme
 
@@ -20,7 +20,7 @@ RL：优化内容缓存位置
 
 两种情况：
 
-1. 如果不是以basic质量请求的，会直接传给用户，但是如果他的popularity不够大则不会缓存进入cache中年。
+1. 如果不是以basic质量请求的，会直接传给用户，但是如果他的popularity不够大则不会缓存进入cache中。
 2. 如果是以basic请求的，在预测vp中的tile会以高质量被cache。
 
 两点：
